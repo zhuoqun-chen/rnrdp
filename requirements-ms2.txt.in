@@ -1,0 +1,17 @@
+torch==2.2.0
+torchvision==0.17.0
+tensorboard==2.15.1
+wandb==0.18.5
+pytest
+moviepy
+mani-skill2==0.5.3
+gymnasium-robotics==1.2.4
+numpy==1.23.5
+gymnasium[mujoco]==0.29.1
+stable-baselines3==2.2.1
+opencv-python
+h5py==3.12.1
+huggingface-hub==0.25.2
+datasets==3.1.0
+diffusers==0.25.0
+einops==0.8.1

@@ -1,0 +1,14 @@
+# required by ms3 demo downloading
+setuptools
+
+numpy==1.23.5
+torch==2.2.0
+torchvision==0.17.0
+
+mani-skill==3.0.0b15
+
+wandb==0.20.1
+tensorboard==2.15.1
+huggingface-hub==0.25.2
+diffusers==0.25.0
+einops==0.8.1

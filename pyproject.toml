@@ -1,0 +1,46 @@
+[project]
+name = "rnrdp"
+version = "0.0.1"
+description = "Responsive Noise-Relaying Diffusion Policy"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.2.0",
+    "torchvision==0.17.0",
+    "tensorboard==2.15.1",
+    "wandb==0.18.5",
+    "pytest",
+    "moviepy",
+    #
+    "mani-skill2==0.5.3",
+    "gymnasium-robotics==1.2.4",
+    "numpy==1.23.5",
+    "gymnasium[mujoco]==0.29.1",
+    "stable-baselines3==2.2.1",
+    "opencv-python",
+    "h5py==3.12.1",
+    "huggingface-hub==0.25.2",
+    "datasets==3.1.0",
+    "diffusers==0.25.0",
+    "einops==0.8.1",
+]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cpu", marker = "sys_platform != 'linux'" },
+    { index = "pytorch-cu121", marker = "sys_platform == 'linux'" },
+]
+torchvision = [
+    { index = "pytorch-cpu", marker = "sys_platform != 'linux'" },
+    { index = "pytorch-cu121", marker = "sys_platform == 'linux'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true

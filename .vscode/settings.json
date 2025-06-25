@@ -1,0 +1,6 @@
+{
+    // for IDE support, change it to:
+    // 1) .venv_ms2 for ms2 tasks (manually install local dependencies)
+    // 2) .venv_docker_ms<2,3>    (auto use docker installed dependencies)
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv_ms3"
+}

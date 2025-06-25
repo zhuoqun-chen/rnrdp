@@ -1,0 +1,15 @@
+# .vscode/
+
+# any folder starting with .venv
+.venv**/**
+
+.DS_Store
+
+**/output/**
+**/wandb/**
+logs/
+data/
+checkpoints/
+
+**/__pycache__/**
+**/.mypy_cache__/**
