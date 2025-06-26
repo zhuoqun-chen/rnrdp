@@ -5,7 +5,7 @@ Official implementation of
 
 [Responsive Noise-Relaying Diffusion Policy: Responsive and Efficient Visuomotor Control](https://arxiv.org/abs/2502.12724) by
 
-[Zhuoqun Chen](https://zhuoqun-chen.github.io)*, Xiu Yuan*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/), [Hao Su](https://cseweb.ucsd.edu/~haosu) (UC San Diego)</br>
+[Zhuoqun Chen](https://zhuoqun-chen.github.io)\*, Xiu Yuan*, [Tongzhou Mu](https://cseweb.ucsd.edu/~t3mu/), [Hao Su](https://cseweb.ucsd.edu/~haosu) (UC San Diego)</br>
 
 *Equal Contribution</br>
 
