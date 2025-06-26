@@ -34,7 +34,7 @@ git clone https://github.com/zhuoqun-chen/rnrdp.git
 
 ### Download Demo Datasets
 
-0. Install `gdown` to download the demo datasets from Google Drive
+0. Install [**gdown**](https://github.com/wkentaro/gdown) to download some demo datasets from Google Drive links.
 
 ```bash
 bash scripts/download/download_ms3_data.sh # for MS3, RollBall-v1 & PushT-v1
@@ -50,8 +50,9 @@ bash scripts/download/download_ms2_data.sh # for MS2, turnfaucet & pushchair
 When you just want to run the experiments without modifying the code, we recommend using our pre-built Docker image. This is the easiest way to get started.
 
 
-1. Install `Docker` on your linux machine
-2. Install `Nvidia Container Toolkit` to enable GPU support in Docker.
+1. Install [**(Linux) Docker**](https://docs.docker.com/engine/install/ubuntu/). (**Ensure non-root users have Docker permissions.**)
+
+2. Install [**(Linux) NVIDIA Container Toolkit**](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) to enable GPU support in docker. (**Installation and Configuring Docker steps are required.**)
 3. Run one of the example experiment (`RollBall-v1`) as simple as:
 
 ```shell
