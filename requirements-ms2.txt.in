@@ -15,3 +15,4 @@ huggingface-hub==0.25.2
 datasets==3.1.0
 diffusers==0.25.0
 einops==0.8.1
+git+https://github.com/tongzhoumu/ManiSkill2.git@rl_baselines

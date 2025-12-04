@@ -42,7 +42,7 @@ uv run --no-sync python -m mani_skill2.trajectory.replay_trajectory \
 # ms2::turnfaucet
 ##################
 env_id="TurnFaucet_COTPC-v0"
-target_control_mode="pd_joint_pos"
+target_control_mode="pd_ee_delta_pose"
 
 # state
 # use data/cotpc_demo_data/TurnFaucet/ten_faucets.state.pd_ee_delta_pose.h5
