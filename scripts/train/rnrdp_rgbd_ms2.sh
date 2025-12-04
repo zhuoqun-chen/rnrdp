@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 export UV_PROJECT_ENVIRONMENT=.venv_ms2 # change to .venv_docker_ms2 if inside docker container
+export MS2_ASSET_DIR=$(pwd)/data
 
 # ms2::stackcube::rgbd
 cd rnrdp || exit 1

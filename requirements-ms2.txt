@@ -135,7 +135,7 @@ jinja2==3.1.6
     #   torch
 kiwisolver==1.4.8
     # via matplotlib
-mani-skill2==0.5.3
+mani-skill2 @ git+https://github.com/tongzhoumu/ManiSkill2.git@a37f637baf92139b194a4111747ab1d014d5ba4a
     # via -r requirements-ms2.txt.in
 markdown==3.8.2
     # via tensorboard

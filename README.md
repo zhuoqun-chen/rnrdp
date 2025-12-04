@@ -89,6 +89,7 @@ When you want to play with the code and modify it, we recommend installing the c
     ```bash
     # downloads assets to `${project_root}/data/`.
     export UV_PROJECT_ENVIRONMENT=.venv_ms2
+    uv run --no-sync python -m mani_skill2.utils.download_asset partnet_mobility_faucet
     uv run --no-sync python -m mani_skill2.utils.download_asset partnet_mobility_chair
 
     # download ms2::stackcube demo data
